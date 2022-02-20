@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    
+    <settings>
+        <!-- 是否开启自动驼峰命名规则（camel case）映射，即从数据库列名 A_COLUMN 到属性名 aColumn 的类似映射 a_name  aName-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    
+    <!--配置分页插件-->
+    <!--<plugins>-->
+    <!--    <plugin interceptor="com.github.pagehelper.PageHelper">-->
+    <!--        &lt;!&ndash; dialect: 指定方言 mysql的分页：limit &ndash;&gt;-->
+    <!--        <property name="dialect" value="mysql"/>-->
+    <!--    </plugin>-->
+    <!--</plugins>-->
+    
+    <!--<mappers>-->
+    <!--    &lt;!&ndash;指定具体位置的映射文件，无需同包同名&ndash;&gt;-->
+    <!--    <mapper resource="com/lagou/dao/*.xml"/>-->
+    <!--    -->
+    <!--    &lt;!&ndash;使用该方式：接口和映射文件需要同包同名&ndash;&gt;-->
+    <!--    &lt;!&ndash;<mapper class="com.lagou.mapper.UserMapper"></mapper>&ndash;&gt;-->
+    <!--    -->
+    <!--    &lt;!&ndash;指定包&ndash;&gt;-->
+    <!--    <package name="com.lagou.dao"/>-->
+    <!--</mappers>-->
+
+</configuration>
